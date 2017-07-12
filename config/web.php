@@ -24,9 +24,6 @@ $config = [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-        'weahct' => [
-            'class' => 'app\controllers\WechatController'
-        ],
         'mailer' => [
             'class' => 'yii\swiftmailer\Mailer',
             // send all mails to a file by default. You have to set

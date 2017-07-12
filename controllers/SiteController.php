@@ -8,6 +8,6 @@ class SiteController extends Controller
 {
     public function actionIndex()
     {
-        var_dump(Yii::$app->weahct->valid());
+        return $this->render('index');
     }
 }
